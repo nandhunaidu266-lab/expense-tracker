@@ -1,0 +1,26 @@
+# Node.js .gitignore file
+
+# Node modules folder
+node_modules/
+
+# Environment variables file
+.env
+
+# macOS system files
+.DS_Store
+
+# Log files
+logs/
+*.log
+
+# npm-debug files
+npm-debug.log*
+
+# dotenv environment variable files
+.env.*
+
+# npm package lock
+package-lock.json
+
+# Yarn files
+.yarn/

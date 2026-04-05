@@ -1,0 +1,47 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.expense-item:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.expense-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.expense-form input, .expense-form button {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .expense-item {
+        flex-direction: column;
+    }
+    .header {
+        font-size: 1.2em;
+    }
+}
